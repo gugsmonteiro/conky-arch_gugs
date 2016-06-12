@@ -15,11 +15,11 @@ if [ -z "$CONFDIR" ] || [ -z "$USRDIR" ]; then
 fi
 
 if [ -z "$HOMECONF" ]; then
-    HOMECONF='os.getenv("HOME") .. "/.config/conky/conky-bargile.conf"'
+    HOMECONF='os.getenv("HOME") .. "/.config/conky/conky-arch_gugs.conf"'
 fi
 
 if [ -z "$HOMETHEME" ]; then
-    HOMETHEME='os.getenv("HOME") .. "/.config/conky/conky-bargile.lua"'
+    HOMETHEME='os.getenv("HOME") .. "/.config/conky/conky-arch_gugs.conf"'
 fi
 
 # replace paths on the source
@@ -36,10 +36,10 @@ function replace() {
 }
 
 
-replace "conky --config " "conky --config '$CONFDIR/conky-bargile.conf'" "src/conky-bargile"
-replace "    lua_load = " "    lua_load = '$CONFDIR/conky-bargile.lua'," "src/conky-bargile.conf"
-replace "defaultfile = " "defaultfile = '$USRDIR/conky-bargile.lua.default'" "src/conky-bargile.lua"
+replace "conky --config " "conky --config '$CONFDIR/conky-arch_gugs.conf'" "src/conky-arch_gugs"
+replace "    lua_load = " "    lua_load = '$CONFDIR/conky-arch_gugs.lua'," "src/conky-arch_gugs.conf"
+replace "defaultfile = " "defaultfile = '$USRDIR/conky-arch_gugs.lua.default'" "src/conky-arch_gugs.conf"
 
-replace "homeconf = " "homeconf = $HOMECONF" "src/conky-bargile.conf"
-replace "homefile = " "homefile = $HOMETHEME" "src/conky-bargile.lua"
+replace "homeconf = " "homeconf = $HOMECONF" "src/conky-arch_gugs.conf"
+replace "homefile = " "homefile = $HOMETHEME" "src/conky-arch_gugs.conf"
 
