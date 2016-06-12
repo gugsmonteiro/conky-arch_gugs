@@ -1,7 +1,7 @@
 ## conky-arch_gugs
 Another conky theme.
 
-This is another theme to use with [Conky][![screenshot](conky-arch_gugs/Screenshot_20160612_201651.png)]
+This is another theme to use with [Conky][![screenshot(conky-arch_gugs/Screenshot_20160612_201651.png)]
 This theme will provide you a small engine to build a theme easily. It will also
 provide a baseline theme as an example of what can be done.
 
