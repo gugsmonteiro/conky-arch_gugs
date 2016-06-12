@@ -1,14 +1,14 @@
-# Maintainer: Noeljnuior <liamgliam @ gmail.com>
+# Maintainer: Noeljnuior <gugsmonteiro @ gmail.com>
 
-pkgname=conky-bargile
+pkgname=conky-arch_gugs
 pkgver=0.1a
 pkgrel=1
-pkgdesc="Yet another conky-lua theme, this one includes some kind of an engine"
+pkgdesc="Yet another conky-lua theme
 arch=('any')
-url="https://github.com/Noeljunior/conky-bargile"
+url="https://github.com/gugsmonteiro/conky-arch_gugs"
 license=('GPL')
 depends=('conky-lua' 'lm_sensors' 'hddtemp' 'git')
-source=("$pkgname::git+https://github.com/Noeljunior/conky-bargile")
+source=("$pkgname::git+https://github.com/gugsmonteiro/conky-arch_gugs")
 md5sums=('SKIP')
 
 package() {
