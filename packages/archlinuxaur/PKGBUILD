@@ -3,11 +3,11 @@
 pkgname=conky-arch_gugs
 pkgver=0.1a
 pkgrel=1
-pkgdesc="Yet another conky-lua theme
+pkgdesc="Another conky
 arch=('any')
 url="https://github.com/gugsmonteiro/conky-arch_gugs"
 license=('GPL')
-depends=('conky-lua' 'lm_sensors' 'hddtemp' 'git')
+depends=('conky' 'lm_sensors' 'hddtemp' 'git')
 source=("$pkgname::git+https://github.com/gugsmonteiro/conky-arch_gugs")
 md5sums=('SKIP')
 
