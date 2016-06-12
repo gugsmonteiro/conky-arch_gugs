@@ -1,4 +1,4 @@
-## conky-bargile
+## conky-arch_gugs
 Another conky theme.
 
 This is another theme to use with [Conky](https://github.com/gugsmonteiro/conky-arch_gugs)
