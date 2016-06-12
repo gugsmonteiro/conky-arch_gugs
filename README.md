@@ -22,11 +22,8 @@ find any.
  * Each user can have its own config file
  * Auto detect scripts (no. of cpu cores/threads, mounted partitions, temperature sensors, available NICs)
 
-### Screenshots
-[![screenshot](https://raw.githubusercontent.com/conky-arch_gugs/Screenshot_20160612_201651.png )
-
 ### Documentation
-It will have one some day. I'm sorry for the reverse-engineering that you will
+I'm sorry for the reverse-engineering that you will
 have to do by now.
 
 
