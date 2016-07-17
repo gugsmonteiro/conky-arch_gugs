@@ -13,7 +13,7 @@ own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 double_buffer yes
 draw_shades no
 draw_outline n
-draw_borders noo
+draw_borders no
 draw_graph_borders yes
 stippled_borders 0
 border_margin 4
@@ -66,10 +66,8 @@ own_window_argb_visual yes
 own_window_colour 000000
 minimum_size 0 0
 TEXT
-#leet chars: ┤┤└└┴┴┐┐││┘┘┌┌├├┬┬┼┼┴┴── ││ ▽▼△▲▵▴▾▿
 ${alignr}${offset -80} ${font DejaVu Sans Mono:pixelsize=30}Arch
 ${alignr}${offset 240} $font └─────────── ${sysname}  
-${alignr}$font │  
 ${alignr}$font ${nodename} -─┤  
 ${alignr}$font < ${kernel} > KERNEL -─┤      │  
 ${alignr}$font < $machine >   ARCH -─┤      │  
@@ -95,7 +93,7 @@ ${alignr}$font < ${top name 4}${top cpu 4} > -─┤             │      │
 ${alignr}$font < ${top name 5}${top cpu 5} > -─┘             │      │  
 ${alignr}$font PROCESSOS -─┤      │  
 ${alignr}$font < $processes >   TOTAL -─┤      │      │  
-${alignr}$font < $running_processes > EM EXECUCAO -─┘      │      │  
+${alignr}$font < $running_processes > EM EXECUÇAO -─┘      │      │  
 ${alignr}$font TEMPERATURA -─┤      │  
 ${alignr}$font < ${hwmon temp 1}ºC > tmp1 -─┘      │  
 ${alignr}$font │  
@@ -111,10 +109,10 @@ ${alignr}$font < ${top_mem name 3}  ${top_mem mem 3} > -─┤      │      │
 ${alignr}$font < ${top_mem name 4}  ${top_mem mem 4} > -─┤      │      │  
 ${alignr}$font < ${top_mem name 5}  ${top_mem mem 5} > -─┘      │      │  
 ${alignr}$font < ${fs_used /}/${fs_size /} > ROOT -─┤      │  
-${alignr}$font < ${fs_bar 5,120 /} >  -─┘      │  
+${alignr}$font < ${fs_bar 15,120 /} >  -─┘      │  
 ${alignr}$font │  
 ${alignr}$font NET -───┘  
-${alignr}$font < ${tcp_portmon 1 65535 count} > CONECCOES -─┤        
+${alignr}$font < ${tcp_portmon 1 65535 count} > CONEÇÔES -─┤        
 ${alignr}$font < ${tcp_portmon 1 32767 count} > em / LOCAL -─┤        
 ${alignr}$font <  ${tcp_portmon 1 32767 rhost 0} ${tcp_portmon 1 32767 lservice 0} > -─┤      │        
 ${alignr}$font <  ${tcp_portmon 1 32767 rhost 1} ${tcp_portmon 1 32767 lservice 1} > -─┤      │        
@@ -124,8 +122,8 @@ ${alignr}$font < ${tcp_portmon 32768 61000 rhost 0} ${alignr} ${tcp_portmon 3276
 ${alignr}$font < ${tcp_portmon 32768 61000 rhost 1} ${alignr} ${tcp_portmon 32768 61000 rservice 1} > -─┤      │        
 ${alignr}$font < ${tcp_portmon 32768 61000 rhost 2} ${alignr} ${tcp_portmon 32768 61000 rservice 2} > -─┘      │        
 ${alignr}$font < ${upspeed wlp2s0} k/s >   UP -───┤        
-${alignr}$font < ${upspeedgraph wlp2s0 8,120 8b2132 fe8608} > -─┘      │        
+${alignr}$font < ${upspeedgraph wlp2s0 15,120 8b2132 fe8608} > -─┘      │        
 ${alignr}$font < ${downspeed wlp2s0} k/s > DOWN -───┘        
-${alignr}$font < ${downspeedgraph wlp2s0 8,120 8b2132 fe8608} > -─┘               
+${alignr}$font < ${downspeedgraph wlp2s0 15,120 8b2132 fe8608} > -─┘               
 
 
