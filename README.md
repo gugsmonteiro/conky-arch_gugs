@@ -1,4 +1,4 @@
-## conky-arch_gugs
+//## conky-arch_gugs
 Another conky theme. Still in progress by some errors making the pkgbuild
 
 This is another theme to use with [Conky]![Screenshot](https://github.com/gugsmonteiro/conky-arch_gugs/blob/master/Screenshot_20160612_201651.png )
